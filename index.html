@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
+<meta charset="UTF-8">
+<style>
+body{
+    display: flex;
+    background-color: bisque;
+    font-size: 15px;
+}
+#borda_direita{
+position: absolute;
+right: 15px;
+}
+#borda_esquerda{
+    position: absolute;
+    left: -15px;
+}
+main{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#conteudo{
+background-color: aliceblue;
+display: flex;
+flex-direction: column;
+display: flex;
+padding: 20px;
+gap: 20px;
+}
+</style>
 </head>
 <body>
-
-    
+<div id="borda_direita">
+    <img src="midias/borda (2).png" width="130%">
+</div>
+<div id="borda_esquerda">
+    <img src="midias/borda (2).png" width="130%">
+</div>
+<main>
+<div id="conteudo">
+<h1>base para o site</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum quo ad officiis recusandae numquam facilis optio. Nesciunt obcaecati, nemo illum laudantium voluptatum doloremque doloribus iste accusamus reprehenderit in rem.</p>
+</div>
+</main>  
 </body>
 
 </html>
