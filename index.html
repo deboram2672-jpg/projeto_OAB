@@ -2,11 +2,12 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body{
     display: flex;
     background-color: bisque;
-    font-size: 15px;
+    font-size: 20px;
 }
 #borda_direita{
 position: absolute;
@@ -29,6 +30,33 @@ flex-direction: column;
 display: flex;
 padding: 20px;
 gap: 20px;
+width: 80%;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+color: #333;
+}
+.conteudo h1, .conteudo h2, .conteudo h3 {
+  color: #2c3e50;             /* tom mais forte para destaque */
+  margin-bottom: 15px;
+}
+.caixatexto{
+    background-color: aliceblue;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+  align-items: flex-start;
+}
+.regras{
+        background-color: aliceblue;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 10px;
+    flex: 2;
+}
+#foto{
+    flex:1;
 }
 </style>
 </head>
@@ -41,8 +69,31 @@ gap: 20px;
 </div>
 <main>
 <div id="conteudo">
-<h1>base para o site</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum quo ad officiis recusandae numquam facilis optio. Nesciunt obcaecati, nemo illum laudantium voluptatum doloremque doloribus iste accusamus reprehenderit in rem.</p>
+<h1>Bem vindos esse site foi feito para explicar nosso jogo e um pouco sobre nosso grupo</h1>
+<div class="caixatexto">
+<h2>sobre nosso grupo:</h2>
+<p>nós somos alunos do centro universitario UDF da disciplina "Metodologia de Projeto em design"</p>
+</div>
+<div class="caixatexto">
+<h2>Sobre nosso projeto:</h2>
+<p>Nosso projeto tem como objetivo informar pais e responsaveis sobre leis e direitos de pessoas autistas de forma divertida através de um jogo feito por nosso grupo</p>
+</div>
+<h1>Jogo:</h1>
+<div class="container">
+<div class="regras">
+    <h2>Regras do jogo:</h2>
+<ul>
+    <li>É um jogo em formato de quizz(perguntas e respostas)</li>
+    <li>Tem três topicos dentro do jogo:Educação,saude e trabalho</li>
+    <li>Você começa no topico Educaçãoe para avançar para o proximo topico é preciso acertar 5 perguntas</li>
+    <li>O jogador tem 2 vidas caso ele erre 2 vezes o topico é reinciado</li>
+    <li>Ao final é possivel verificar as erradas e conferir qual era a respostas certa</li>
+</ul>
+</div>
+<img src="midias/tela inicial.png" width="400px" >
+<img src="midias/ilhas.png" width="400px">
+<img src="midias/jogo.png" width="400px">
+</div>
 </div>
 </main>  
 </body>
