@@ -40,3 +40,10 @@ document.getElementById("Edu").style.display = "block";
         document.getElementById("Edu").style.display = "none";
     }
 }
+function exibir_QM(){
+    if(Qm_somos.style.display === "none"){
+document.getElementById("Qm_somos").style.display = "block";
+    }else{
+        document.getElementById("Qm_somos").style.display = "none";
+    }
+}
