@@ -27,10 +27,13 @@
 
   <main>
     <div id="conteudo">
-
-      <section id="sobre">
+      <div class="botoes">
       <button class="botao-index" onclick="exibir_QM()"><img src="midias/peça_quebra_cabeca.png" width="50px">QUEM SOMOS</button>
-       <div id="Qm_somos">
+     <button class="botao-index" onclick="exibir_GP()"><img src="midias/peça_quebra_cabeca.png" width="50px">SOBRE NOSSO <br>PROJETO</button>
+    <button class="botao-index" onclick="exibir_JG()"><img src="midias/peça_quebra_cabeca.png" width="50px">JOGO</button>
+    </div>
+      <section id="sobre">
+      <div id="Qm_somos" style="display: none;">
       <div class="caixatexto">
       <img src="midias/quebra_cabeca_semfundo-Photoroom.png" width="70px">
       <h1>Comissão de Direito da Pessoa com Autismo – OAB/DF Subseção Águas Claras</h1>
@@ -78,21 +81,30 @@ fomentando boas práticas inclusivas.</li>
       <li>Apoio à advocacia que atua na defesa de pessoas com TEA, oferecendo 
 espaço de diálogo e produção técnica.</li>
       </ul>
+      <h1>Importância Social</h1>
+      <p> Essa comissão é um canal institucional de defesa e inclusão, garantindo que 
+a OAB/DF cumpra sua função social ao se posicionar em prol de grupos 
+vulneráveis. Ao mesmo tempo, reforça a missão de promover uma advocacia 
+mais próxima da sociedade, engajada na proteção de direitos fundamentais e 
+na luta contra a discriminação e o preconceito.</p>
         </div>
       </div>
       </section>
 
       <section id="projeto">
-        <h1>Sobre nós</h1>
+        <div id="Sobre_pj" style="display: none;">
         <div class="caixatexto">
+          <h1>Sobre nosso projeto</h1>
           <p>O projeto tem como objetivo informar pais e responsáveis sobre <b>leis e direitos de pessoas autistas</b> de forma divertida, através de um jogo desenvolvido por nosso grupo.</p>
+        </div>
         </div>
       </section>
 
       <section id="jogo">
-        <h1>🎮 Jogo</h1>
+        <div id="jogo_regras" style="display: none;">
         <div class="container">
           <div class="regras">
+            <h1>🎮 Jogo</h1>
             <h2>Regras do jogo:</h2>
             <ul>
               <li>É um jogo em formato de quiz (perguntas e respostas).</li>
@@ -120,6 +132,7 @@ espaço de diálogo e produção técnica.</li>
             <img src="midias/jogo.png" alt="Tela de perguntas">
             <figcaption></figcaption>
           </figure>
+        </div>
         </div>
       </section>
     </div>

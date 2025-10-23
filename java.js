@@ -47,3 +47,17 @@ document.getElementById("Qm_somos").style.display = "block";
         document.getElementById("Qm_somos").style.display = "none";
     }
 }
+function exibir_GP(){
+    if(Sobre_pj.style.display === "none"){
+document.getElementById("Sobre_pj").style.display = "block";
+    }else{
+        document.getElementById("Sobre_pj").style.display = "none";
+    }
+}
+function exibir_JG(){
+    if(jogo_regras.style.display === "none"){
+document.getElementById("jogo_regras").style.display = "block";
+    }else{
+        document.getElementById("jogo_regras").style.display = "none";
+    }
+}

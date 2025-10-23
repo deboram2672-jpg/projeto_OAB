@@ -183,3 +183,8 @@
     font-weight: bold;
     margin: 20px 20px;
 }
+.botoes{
+display: flex;
+justify-content: center;
+align-items: center;
+}
